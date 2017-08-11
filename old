@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>-->
+    <title>{{ site.title }}</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+        <header class="masthead clearfix">
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a>{{ site.title }}</h1>
+<!--            <p class="site-description">{{ site.description }}</p>-->
+          
+          <hr>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div id="main_content" class="inner">
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {{ post.excerpt }}
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="inner">
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+        </footer>
+      </div>
+    </div>
+    </div>
+
+   
+  </body>
+</html>
+
+<!--
+<div 
