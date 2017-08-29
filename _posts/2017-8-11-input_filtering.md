@@ -5,7 +5,7 @@ title: Input Filtering
 
 This post will likely be the first of a few regarding some fundamentals I consider to be fairly basic, but in my recent time testing web apps seem to be somewhat overlooked. The posts come from a personal belief that the core of securing web applications is simple, and hasn't changed and won't change going in to the future.
 
-**``` Input Filtering ```**
+## Input Filtering
 
 The first thing I want to talk about is input filtering.
 

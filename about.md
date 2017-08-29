@@ -4,4 +4,12 @@ title: About
 permalink: /about/
 ---
 
-numb shiva's page for people who want to do info sec good and other things good too
+Some information about you!
+
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[email@domain.com](mailto:email@domain.com)
