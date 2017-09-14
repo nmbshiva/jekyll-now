@@ -3,6 +3,8 @@ layout: post
 title: Onmouseover XSS POC
 ---
 
+<p></p>
+
 __Or, bypassing custom blacklist filtering of <.* tags__
 
 A recent web app engagement required simple PoC that their blacklisting was ineffective in preventing script injection (they had turned off ASPX filtering in favour of a custom blacklist solution.)

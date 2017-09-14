@@ -2,7 +2,9 @@
 layout: post
 title: Using UPX packer to bypass AV
 ---
+
 <p></p>
+
 **The Signature Problem**
 
 Traditionally, AV has always been about signatures. Malware is released, AV companies reverse it, signatures are created and released, AV now detects malware (lag time between malware release and DAT update can vary) and all is well with the world.
