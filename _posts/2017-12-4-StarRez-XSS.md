@@ -29,5 +29,3 @@ This could have opened up the door for a lot of potential nastiness (session hij
 
 ##### Discovered and reported: 02/2016
 ##### Final patch: 09/2016
-
-###### (Sorry, no screenshots, they have the sensitive infos and I don't currently have time to edit)
