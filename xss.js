@@ -174,5 +174,8 @@
 	'Flash: ' + jscd.flashVersion + '\n' +
 	'Cookies: ' + jscd.cookies + '\n' +
 	'Screen Size: ' + jscd.screen + '\n\n' +
-	'Full User Agent: ' + navigator.userAgent
+	'Full User Agent: ' + navigator.userAgent + '\n' +
+	'document location: ' + document.location + '\n' +
+	'document cookie: ' + document.cookie
+	
 	);
